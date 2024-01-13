@@ -1,0 +1,25 @@
+*{
+    padding:0px;
+    margin:0px;
+    background-color:pink;
+    box-sizing: broder-box;
+    font-famaily: 'poppins',sans-serif;
+}
+body{
+    display: grid;
+    height: 100%;
+    place-items: center;
+    margin: 10%;
+}
+.wraper{
+    border: 1px solid yellowgreen;
+    text-decoration: none;
+    padding: 20px;
+    background-color: aquamarine;
+}
+.title{
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+
+}

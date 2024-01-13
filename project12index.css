@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+}
+#logo{
+    margin: 10px;
+    height: 10px;
+    padding-bottom: 40px;
+}
+#logo img{
+    height: 40px;
+    width: 30px;
+    padding-bottom: 50px;
+}
+#navbar ul{
+    display: flex;
+    text-decoration: none;
+    
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 20px;
+}
+#navbar ul li a{
+    display: block;
+     margin: 30px;
+     text-decoration: none;
+     
+}
+#home{
+    text-align: center;
+    background-image:url(./HTML_ASSIGNMENT/images.jpg);
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    background-repeat: no-repeat;
+    z-index: -1;
+
+}
+#hman{
+    padding-top: 70px;
+}
+#bton{
+    padding: 10px 15px 10px 15px;
+    margin: 5%;
+    background-color: brown;
+    border-style: none;
+    border-radius: 5px;
+}
+#home h1{
+    color: purple;
+}
+#service-section{
+    display: flex;
+    text-align: center;
+    margin: 10px;
+}
+#service-section h1{
+    margin-left: 110px;
+    margin-top: 100px;
+}
+#box{
+height: 180px;
+width: 150px;
+    display: block;
+    border: 2PX solid blueviolet;
+    margin-top: 150px;
+    margin-left: 55px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    text-align: center;
+
+}
+#box img{
+    width: 148px;
+    border-radius: 4px;
+}
+#box h2{
+    padding-top: 10px;
+    color: darkred;
+    border: 1px solid blue;
+    margin: 10px;
+    border-radius: 2px;
+    background-color: blueviolet;
+}
+#client{
+    display: flex;
+    background-color: palevioletred;
+}
+#clientlogo>div{
+    display: flex;
+background-color: antiquewhite;
+    margin: 20px;
+    height: 50px;
+    width: 25px;
+}
+#h2btn{
+color: aqua;
+border: 1px solid black;
+}
+.footer{
+    outline-style: dotted;
+    outline-color: crimson;
+    background-repeat: no-repeat;
+    background-color: aqua;
+
+}
+#customers th #customers td{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 110%;
+}
+#customers tr:hover{
+    background-color: red;
+}
+.footer p::first-letter{
+    color: darkred;
+    font-size: 50px;
+}
+@keyframes changer{
+    from{background-image:url(./HTML_ASSIGNMENT/images.jpg);}
+    to{background-image: url(./HTML_ASSIGNMENT/logonetflex.jpg);}
+}
+#animat{
+    background-color: orangered;
+    height: 100px;
+    width: 200px;
+    animation-name: changer;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    background-image: url(./HTML_ASSIGNMENT/webimage.jpg);
+
+}
